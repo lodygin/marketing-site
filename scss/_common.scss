@@ -1,0 +1,24 @@
+body {
+  font-family: $fontfamily;
+}
+
+h2, h3 {
+  color: #000;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.container{max-width:$mw+px;margin: 0 auto;width: 100%;
+	@media (max-width:$md1+px){max-width: 970px;}
+	@media (max-width:$md2+px){max-width: 750px;}
+	@media (max-width:$md3+px){max-width: none;padding:0 10px;}
+}
+
+.body-lock {
+  overflow: hidden;
+}
